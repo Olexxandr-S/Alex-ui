@@ -4,7 +4,7 @@ export default create({
     base: "light",
     brandTitle: "My custom storybook",
     brandImage:
-        "https://storage.cloud.google.com/palyanytsya-343517.appspot.com/LogoUI.svg",
+        "https://video-recomendations.netlify.app/static/media/signature.ebec75695f25fa982bfc.png",
     brandTarget: "_self",
     fontBase: '"Open Sans", sans-serif',
     appBg: "linear-gradient(92deg, #f0f5fe 0%, #f6fafb 100%)",
