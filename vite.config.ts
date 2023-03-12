@@ -8,7 +8,7 @@ export default defineConfig({
         cssCodeSplit: true,
         lib: {
             entry: path.resolve(__dirname, 'src/index.ts'),
-            name: 'paw-ui',
+            name: 'alex-ui',
             fileName: 'index',
             formats: ['es'],
         },
@@ -19,7 +19,7 @@ export default defineConfig({
                 theme: path.resolve(__dirname, 'src/styles/theme.scss'),
             },
             output: {
-                assetFileNames: (assetInfo) => (assetInfo.name === 'index.css' ? 'paw-ui.css' : assetInfo.name),
+                assetFileNames: (assetInfo) => (assetInfo.name === 'index.css' ? 'alex-ui.css' : assetInfo.name),
             },
         },
     },
