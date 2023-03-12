@@ -29,7 +29,8 @@
     "version:major": "yarn version --major --no-git-tag-version",
     "prestorybook": "yarn build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=2b21204b4a63"
   },
   "dependencies": {
     "clsx": "^1.2.1"
@@ -53,6 +54,7 @@
     "@vitejs/plugin-react-swc": "^3.0.0",
     "@wallwhite/eslint-config-react-ts": "^0.1.5",
     "babel-loader": "^8.3.0",
+    "chromatic": "^6.17.1",
     "eslint": "^8.35.0",
     "path": "^0.12.7",
     "react": "^18.2.0",
@@ -61,5 +63,7 @@
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
     "vite-plugin-dts": "^2.0.2"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "alex-ui-kit@1.0.0"
 }

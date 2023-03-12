@@ -7,7 +7,7 @@ export default create({
         "https://video-recomendations.netlify.app/static/media/signature.ebec75695f25fa982bfc.png",
     brandTarget: "_self",
     fontBase: '"Open Sans", sans-serif',
-    appBg: "linear-gradient(92deg, #f0f5fe 0%, #f6fafb 100%)",
+    appBg: "linear-gradient(90deg, #f1f5fe 0%, #f8fafb 100%)",
     appBorderRadius: 8,
     colorPrimary: "#FF868E",
     colorSecondary: "#060606",
